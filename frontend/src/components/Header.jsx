@@ -26,8 +26,8 @@ const Header = () => {
         </div>
 
         {/* ------------ Right Side ------------ */}
-        <div className='md:w-1/2 relative'>
-            <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.header_img} alt="header-img" />
+        <div className='md:w-1/2 relative overflow-hidden'>
+            <img className='w-full md:absolute overflow-hidden bottom-0 h-auto rounded-lg' src={assets.header_img} alt="header-img" />
 
         </div>
 
